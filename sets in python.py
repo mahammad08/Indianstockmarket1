@@ -1,0 +1,16 @@
+demo_set1 = {12,13,14,15,12,13,14,15}
+demo_set2 = set(("10","20","30","10","20","30","20"))
+
+print(demo_set1)
+print(demo_set2)
+print(len(demo_set1))
+print(len(demo_set2))
+print(type(demo_set1))
+print(type(demo_set2))
+demo_set1.add("50")
+demo_set2.remove("20")
+print(demo_set2)
+print(demo_set1)
+demo_set3 = demo_set2.copy()
+print(demo_set3)
+print(demo_set3.pop())
